@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { HomeIcon, Sprout } from "lucide-react";
+import { HomeIcon, LogIn, Sprout } from "lucide-react";
 import ModeToggle from "./ModeToggle";
 
 const Navbar = () => {
@@ -33,6 +33,15 @@ const Navbar = () => {
                             <HomeIcon className="h-4 w-4" />
                             <span className="hidden lg:inline">Home</span>
                         </Link>
+
+                       
+                        
+                        {/* <Link href="/">
+                            <LogIn className="w-4 h-4" />
+                            <span className="hidden lg:inline">Sign In</span>
+                        </Link> */}
+
+
 
                     </div>
                 </div>
